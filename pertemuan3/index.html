@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pertemuan3</title>
+</head>
+<body>
+    <h1>percobaan untuk text</h1>
+    <p>ini biasa</p>
+    <p><strong>percobaan untuk strong</strong></p>
+    <p><b>yang ini percobaan strong, tpi pakai huruf p</b></p>
+    <p><i>yang ini italic</i></p>
+    <p><em>yang ini sama jadi italic, cuma beda pakai "em"</em></p>
+    <p><u>ini text underline</u></p>
+    <p><ins>yang ini sama cuma beda pakai "ins"</ins></p>
+    <p><s>ini text yang dicoreng</s></p>
+    <p><del>sama juga, tpi pakai "del"</del></p>
+    <p><sup>ini text sup (untuk pangkat atas)</sup></p>
+    <p><sub>ini text sub (untuk pangkat bawah)</sub></p>
+    <p>x<sup>4</sup>x<sub>5</sub></p>
+    <p><mark>ini text yang ter mark</mark></p>
+    <p><b><u><i><mark>ini text yang gabungan</mark></i></u></b></p>
+    <h2>membuat link</h2>
+    <p></p><a href="https://www.google.co.id/?hl=id">menuju ke google</a>
+    <br>
+    <a href="about.html">Menuju halaman about</a>
+    <figure>
+    <img src="https://blog-edutore-partner.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/06/19103006/logo-untad-1030x773.png" alt="">
+    <figcaption>ini loh logo untad</figcaption>
+    </figure>
+    <h2>Membuat List</h2>
+    <h3>Ordered list</h3>
+    <h4>ini biasa</h4>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <h4>ini huruf kecil</h4>
+    <ol type="a">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <h4>ini huruf besar</h4>
+    <ol type="A">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <h4>ini romawi</h4>
+    <ol type="i">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <h3>unordered list</h3>
+    <ul>
+        <li>ini pertama</li>
+        <li>ini kedua</li>
+        <li>ini ketiga</li>
+    </ul>
+    <!-- jenis type untuk unorderedlist
+    type="square" untuk kotak
+    type="none" untuk tdk ada
+    type="circle" untuk bulat kosong -->
+    <h3>description list</h3>
+    <dl>
+        <dt>kata 1</dt>
+        <dd>penjelasan kata 1</dd>
+        <dt>kata 2</dt>
+        <dd>penjelasan kata 2</dd>
+    </dl>
+    <h3>nested list</h3>
+    <ol>
+        <li>haus
+            <ul>air</ul>
+            <ul>teh</ul>
+            <ul>kopi</ul>
+        </li>
+  
+
+        <li>lapar
+            <ul>makanan</ul>
+            <ul>nasi</ul>
+            <ul>alif</ul>
+        </li>
+    </ol>
+    <h3>tabel</h3>
+    <table border="1" cellpadding="10"> <!--border untuk membuat border dan cellpadding untuk ukuran tabel-->
+        <tr bgcolor="greyblue">
+            <td>baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+            <td>baris 1 kolom 3</td>
+        </tr>
+        <tr>
+            <td bgcolor="redyellow">baris 2 kolom 1</td>
+            <td bgcolor="yellow">baris 2 kolom 2</td>
+        </tr>
+        <tr bgcolor="whitegreen">
+            <td>coba</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th rowspan="2" bgcolor="bluepink">bulan</th>
+            <th colspan="2" bgcolor="blueoink">hasil panen</th>
+        </tr>
+        <tr>
+            <td>kacang</td>
+            <td>padi</td>
+        </tr>
+        <tr>
+            <td>januari</td>
+            <td>100</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <form>
+        <h3>membuat form</h3>
+        <label for="nama">nama:</label>
+        <input type="text" nama="nama">
+        <br>
+        <br>
+
+        <label>NIM: <input type="text"></label>
+
+        <br>
+        <br>
+
+        <input type="radio" id="laki-laki" name="jenis kelamin" value="laki-laki"/>
+        <label for="laki-laki">laki-laki</label>
+
+        <br>
+
+        <input type="radio" id="perempuan" name="jenis kelamin" value="perempuan"/>
+        <label for="perempuan">perempuan</label>
+
+        <br>
+        <br>
+
+        <input type="checkbox" id="bola" name="hobi" value=bola"/>
+        <label for="bola">bola</label>
+        <br>
+        <input type="checkbox" id="game" name="hobi" value="game"/>
+        <label for="game">game</label>
+        <br><br>
+        <label for="messege">pesan</label><br>
+        <textarea id="messege" name="messege"  rows="4" cols="50"></textarea>
+
+        <br>
+        <br>
+
+        <label for="kelas">kelas:</label>
+        <select name="kelas" id="kelas">
+            <option value="1">A</option>
+            <option value="2">B<b/option>
+            <option value="3">C</option>
+        </select>
+    </form>
+    
+</body>
+</html>
